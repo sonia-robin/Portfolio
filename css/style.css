@@ -38,7 +38,6 @@ header {
 header h1 {
   display: inline-block;
   background-color: #9CD9D9;
-  margin-block: 0px;
 }
 
 header nav {
@@ -73,8 +72,8 @@ header nav ul li a:hover {
   text-align: right;
   /* padding: 20px; */
   background-image: linear-gradient(
-      rgba(1, 133, 162, 0.45), 
-      rgba(1, 133, 162, 0.45)
+      rgba(1, 108, 162, 0.45), 
+      rgba(1, 108, 162, 0.45)
     ), url(../images/02-hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
