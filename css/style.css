@@ -69,7 +69,57 @@ header nav ul li a:hover {
   color: #9CD9D9;
 }
 
-.hero-banner h2 {
+.hero-banner {
   text-align: right;
-  margin-right: 20px;
+  /* padding: 20px; */
+  background-image: linear-gradient(
+      rgba(1, 133, 162, 0.45), 
+      rgba(1, 133, 162, 0.45)
+    ), url(../images/02-hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px;
+}
+
+.hero-banner h2 {
+  display: inline-block;
+  background-color: #9CD9D9;
+  /* background-color: rgba(51, 72, 84, 0.7);
+  padding: 20px; */
+}
+
+.page-section {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 25px;
+}
+
+.page-section h2 {
+  width: 25%;
+  padding: 0px 35px;
+  /* padding-left: 40px; */
+  font-size: 30px;
+  text-align: right;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 75%;
+}
+
+/* .text {
+  display: flex;
+  flex-direction: column;
+} */
+
+.contact-links {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-links a {
+  /* text-decoration: none; */
+  padding: 10px;
 }
