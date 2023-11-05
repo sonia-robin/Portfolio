@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+/* color palette
+#9CD9D9 light tourqoise
+#EBEBF2 background
+#353840 nav background
+#8A99A6 img placeholder bgr
+#445877 text about me etc
+#32343D contacts text */
+
 body {
   margin: 0;
   padding: 0;
@@ -20,4 +28,48 @@ h6 {
 
 p {
   margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: #353840;
+}
+
+header h1 {
+  display: inline-block;
+  background-color: #9CD9D9;
+  margin-block: 0px;
+}
+
+header nav {
+  padding-top: 0;
+  margin-right: 20px;
+  float: right;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color: #9CD9D9;
+}
+
+header nav ul li a:link {
+  color: #9CD9D9;
+}
+
+header nav ul li a:visited {
+  color: #9CD9D9;
+}
+
+header nav ul li a:hover {
+  color: #9CD9D9;
+}
+
+.hero-banner h2 {
+  text-align: right;
+  margin-right: 20px;
 }
